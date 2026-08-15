@@ -1,6 +1,6 @@
 # StackFolder Demo
 
-Public demo and privacy site for [StackFolder for GitHub](https://github.com/derrickleemy/StackFolder).
+Public demo and privacy site for StackFolder for GitHub.
 
 - [Open the demo pull requests](https://github.com/derrickleemy/StackFolder-Demo/pulls)
 - [Visit the website](https://derrickleemy.github.io/StackFolder-Demo/)
