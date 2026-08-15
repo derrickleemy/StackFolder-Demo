@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy policy for the StackFolder for GitHub Chrome extension.">
+    <title>Privacy Policy · StackFolder</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main class="policy">
+      <a class="back" href="../">← StackFolder</a>
+      <h1>Privacy policy</h1>
+      <p class="updated">Effective August 15, 2026</p>
+
+      <p>StackFolder organizes GitHub's native stacked pull requests in your browser. It has no analytics, advertising, developer-operated backend, or remote code.</p>
+
+      <h2>Information StackFolder handles</h2>
+      <ul>
+        <li><strong>GitHub pull request metadata:</strong> Pull request numbers, titles, base branches, draft state, and merge state are fetched directly from GitHub and processed to render folders.</li>
+        <li><strong>Optional GitHub token:</strong> If you enter a personal access token, it is stored in Chrome's local extension storage and sent only to <code>api.github.com</code> over HTTPS to make requests you initiate.</li>
+        <li><strong>Local preferences:</strong> Settings, custom folder names and icons, and expanded or collapsed state are stored in Chrome's local extension storage.</li>
+        <li><strong>Current GitHub page:</strong> StackFolder reads the current repository path and visible pull request links only to identify the rows it should group. It does not collect or retain browsing history.</li>
+      </ul>
+
+      <h2>Storage and retention</h2>
+      <p>Preferences and an optional token remain on your device until you clear extension data or uninstall StackFolder. GitHub API responses are cached in Chrome's session storage and ignored after ten minutes; session storage is cleared when the browser session ends. The developer does not receive or retain this information.</p>
+
+      <h2>Sharing and sale</h2>
+      <p>StackFolder does not sell data, use it for advertising or creditworthiness, or transfer it to the developer or unrelated third parties. Data is sent only to GitHub when necessary to provide the extension's single purpose.</p>
+
+      <h2>Chrome Web Store Limited Use</h2>
+      <p>The use of information received from Google APIs will adhere to the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store User Data Policy, including the Limited Use requirements</a>.</p>
+
+      <h2>Security</h2>
+      <p>Network requests use HTTPS. For private repositories, use a fine-grained GitHub token limited to the repositories you choose with read-only Pull requests permission.</p>
+
+      <h2>Changes</h2>
+      <p>Material changes to this policy will be published on this page with a new effective date.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions or support, <a href="https://github.com/derrickleemy/StackFolder-Demo/issues">open an issue</a>.</p>
+    </main>
+  </body>
+</html>
