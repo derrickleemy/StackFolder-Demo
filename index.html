@@ -31,8 +31,19 @@
           <li>The six demo pull requests appear as one collapsible folder.</li>
           <li>Click the StackFolder toolbar icon to open settings in Chrome's side panel.</li>
         </ol>
-        <p>The side panel holds grouping options, a live folder preview, and an optional GitHub token field.</p>
-        <p>Public repositories work without a GitHub token. Add a fine-grained token with read-only <strong>Pull requests</strong> permission for private repositories or higher API limits.</p>
+        <p>The side panel holds grouping options, a live folder preview, and the optional GitHub token field.</p>
+      </section>
+      <section aria-labelledby="token-heading">
+        <h2 id="token-heading">Add a GitHub token</h2>
+        <p>Public repositories work without one. Add a fine-grained token for private repositories and higher API limits. It is stored only in Chrome extension storage and sent only to <code>api.github.com</code>.</p>
+        <ol>
+          <li><a href="https://github.com/settings/personal-access-tokens/new">Create a fine-grained token</a>, selecting only the repositories you need.</li>
+          <li>Give it read-only <strong>Pull requests</strong> permission — nothing else.</li>
+          <li>Paste it into the <strong>GitHub token</strong> field in the side panel and save.</li>
+        </ol>
+        <h3>Organization repositories</h3>
+        <p>Choose the organization as the <strong>Resource owner</strong> when creating the token. Fine-grained tokens are authorized for SSO during creation; there is no separate Configure SSO step.</p>
+        <p>If the token stays pending, an organization owner must approve it under <strong>Organization Settings → Personal access tokens → Pending requests</strong>. <a href="https://github.com/settings/personal-access-tokens">View your fine-grained tokens</a>.</p>
       </section>
     </main>
     <footer>
